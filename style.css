@@ -1,0 +1,239 @@
+
+#container {
+    width: 1040px;
+    background: #FFFFFF;
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+body {
+    text-align: center;
+    font-family: "Lucida Grande", "Helvetica", "Tahoma", sans-serif;
+    font-size: 14px;
+    background: #EDEDED;
+}
+
+div {
+    margin: 0 auto;
+}
+
+#menu-container {
+    width: 800px;
+    height: 100px;
+    margin-top: -20px
+}
+
+#content {
+    width: 800px;
+    min-height: 300px;
+    border: 1px #EDEDED solid;
+    margin-top: 16px;
+    text-align: left;
+}
+
+#icon {
+    width: 100px;
+    height: 100px;
+    margin: 0px auto;
+    background: #dbdbdb url('assets/sine.png') no-repeat;
+    background-size: cover;     
+}
+
+#icon, #content {
+        border-radius: 5px;
+}
+
+#menu {
+    margin: 24px 0px 24px 25px;
+    width: 675px;
+    height: 48px;
+    border-top: 1px #EDEDED solid;
+    border-bottom: 1px #EDEDED solid;
+}
+
+#menu-container div{
+    float: left;    
+}
+
+#footer {
+    margin-top: 25px;
+    padding: 7px 0px;
+    margin-bottom: 25px;
+    width: 600px;
+    height: 18px;
+    /background: #dbdbdb;
+    /border-radius: 5px;
+    font-size: 10pt;
+    border-top: 1px #EDEDED solid;
+    border-bottom: 1px #EDEDED solid;
+    font-style: italic;
+}
+
+#menu ul li{
+    float: left;
+    list-style: none;
+    margin: 0 10px auto;
+}
+
+#menu ul {
+    padding-left: 10px;
+}
+
+p {
+    padding: 10px
+}
+
+#title h1 {
+    margin-bottom: 0px;
+}
+
+#title h4 {
+    margin-top: 0px;
+    font-style: italic;
+}
+
+#content h2, #content h4 {
+    color: #003865;
+}
+pre {
+    border: 1px #EDEDED solid;
+    color: #666666;
+    font-family: "Consolas", "Lucida Console", monospace;
+    overflow: auto;
+    padding: 0 1.7rem;
+    padding-top: 1.7rem;
+    margin: 0 1.7rem;
+    line-height: 1.7;
+    font-size: 0.8rem;
+    vertical-align: baseline;
+    display: block;
+    white-space: pre;
+    width: 75%;
+}
+
+table {
+    margin-left: 10px;
+    font-family: "Consolas", "Lucida Console", monospace;
+}
+
+td, th {
+    border-bottom: 1px #EDEDED solid;
+    border-left: 1px #EDEDED solid;
+    padding: 0px 20px 0px 5px
+}
+
+#content h2, #content h3, #content h4, #content h5 {
+    margin: 10px;
+    padding-top: 0px;
+}
+
+.g {
+    color: #008800;
+}
+
+.b {
+    color: #000088;
+}
+
+
+.bold {
+    font-weight: bold;
+}
+
+.btt {
+    text-align: right;
+    font-size: 0.8rem;   
+}
+
+.code {
+    color: #666666;
+    font-family: "Consolas", "Lucida Console", monospace;
+}
+
+img {
+    width: 100%
+}
+
+th {
+    text-align: center;
+}
+
+/* Menu dropdowns */
+
+#menu li ul {
+    min-width: 150px;
+    list-style: none;
+    display: none;
+    position: absolute;
+    z-index: 100;
+    background: inherit;
+    border-radius: 5px;
+    padding-top: 17px;
+}
+
+#menu li:hover ul {
+    display: block;
+}
+
+#menu li ul li {
+    display: block;
+    float: none;
+    text-align: left;
+    background: inherit;
+    margin-left: -5px;
+
+    
+    padding: 8px 15px;
+    background: #EFEFEF;
+}
+
+/* Website links. */
+
+#site div ul {
+    min-width: 150px;
+    list-style: none;
+    display: none;
+    position: absolute;
+    z-index: 100;
+    background: inherit;
+    border-radius: 5px;
+    padding-top: 17px;
+}
+
+#site:hover div ul {
+    display: block;
+}
+
+#site div ul li {
+    display: block;
+    float: none;
+    text-align: left;
+    background: inherit;
+    margin-left: -5px;
+    padding: 8px 15px;
+    background: #EFEFEF;
+}
+
+.code {
+    
+}
+
+/* Links */
+
+a.active {
+    font-weight: bold;
+}
+
+a:link, a:visited, a:active {
+    color: #0057B8;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #003865;
+}
+
+#content a:hover {
+    text-decoration: underline;
+}
