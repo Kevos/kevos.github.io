@@ -86,11 +86,13 @@ p {
 
 #title h1 {
     margin-bottom: 0px;
+	font-weight: normal;
 }
 
 #title h4 {
     margin-top: 0px;
     font-style: italic;
+	font-weight: normal;
 }
 
 #content h2, #content h4 {
